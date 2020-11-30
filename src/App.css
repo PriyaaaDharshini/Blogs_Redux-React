@@ -1,6 +1,16 @@
 .App {
   text-align: center;
+  background-color: black;
+
 }
+
+.create-form-container,
+.posts-table-container  {
+  margin: 3%;
+  padding: 5%;
+  border: 1px solid #ccc;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +46,24 @@
     transform: rotate(360deg);
   }
 }
+
+.site-layout-content {
+  font-size: 1.2rem;
+  height: 100%;
+  padding: 54px;
+ 
+}
+.logo {
+  float: left;
+  width: 320px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: black;
+}
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+  [data-theme="dark"] .site-layout-content {
+    background: #141414;
+  }
